@@ -11,7 +11,7 @@ public class Validacion{
 
    
     public Localidad seleccionarLocalidadAleatoria() {
-        int numero = (int) (Math.random() * 3) + 1; // genera 1, 2 o 3
+        int numero = (int) (Math.random() * 3) + 1;
 
         switch (numero) {
             case 1:
